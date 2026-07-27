@@ -803,6 +803,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="762" height="126" alt="image" src="https://github.com/user-attachments/assets/3198b58d-a213-4b7e-a37a-9c27eca464e7" />
 
 # using the case command
 cat >casecheck.sh 
@@ -822,6 +823,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+<img width="748" height="127" alt="image" src="https://github.com/user-attachments/assets/2713ba31-647e-4ce0-9c29-f7a0986dfabb" />
  
 cat > whiletest
 ```bash
@@ -838,7 +840,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+ <img width="758" height="301" alt="image" src="https://github.com/user-attachments/assets/382675f1-856e-42d9-a610-0ba4078cf90d" />
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -851,7 +854,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ <img width="752" height="188" alt="image" src="https://github.com/user-attachments/assets/68dd60cb-7d89-4574-97ba-211723f54c9f" />
+
  
 cat forin1.sh 
 ```bash
@@ -865,6 +869,7 @@ done
  
 $ chmod 755 forin1.sh
  
+<img width="747" height="202" alt="image" src="https://github.com/user-attachments/assets/984ce9ed-ffff-4007-b7ce-c029d9fe72a8" />
  
 cat forin2.sh 
 ```bash
@@ -890,7 +895,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+
+<img width="767" height="175" alt="image" src="https://github.com/user-attachments/assets/24bd4859-d7cf-445d-8c6f-1bb08a0355bd" />
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -901,6 +908,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
+<img width="737" height="253" alt="image" src="https://github.com/user-attachments/assets/d99d5d6f-fcd8-4f81-8891-fc68b5f0b745" />
  
 cat forin1.sh 
 ```bash
