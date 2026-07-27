@@ -499,6 +499,7 @@ echo 'The $$ is ' $$
 ps
 ^d
  ```
+<img width="756" height="328" alt="image" src="https://github.com/user-attachments/assets/e00f895c-1358-459a-91b1-5e5d2daeb58c" />
 
 cat scriptest.sh 
 ```bash
@@ -514,16 +515,19 @@ echo 'The $\# is ' $\#
 echo 'The $$ is ' $$
 ps
 ```
- 
+ <img width="753" height="322" alt="image" src="https://github.com/user-attachments/assets/d81636cb-3f3f-4d35-b9ad-8765a2d31423" />
+
 chmod 777 scriptest.sh
  
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="752" height="422" alt="image" src="https://github.com/user-attachments/assets/4954b3e4-ebca-4b55-a343-075e118e6455" />
 
  
 ls file1
 ## OUTPUT
+<img width="737" height="75" alt="image" src="https://github.com/user-attachments/assets/d5a30769-f7dd-4dfc-b5af-71bf2d399002" />
 
 echo $?
 ## OUTPUT 
@@ -532,12 +536,14 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="781" height="77" alt="image" src="https://github.com/user-attachments/assets/55a2696c-c76f-4e91-b124-6f54a54116f4" />
+
 abcd
  
 echo $?
  ## OUTPUT
 
+<img width="782" height="71" alt="image" src="https://github.com/user-attachments/assets/2f9f1740-4736-4a48-92a6-5e3619af522b" />
 
  
 # mis-using string comparisons
@@ -570,6 +576,7 @@ fi
 ```
 ##OUTPUT
 
+<img width="753" height="281" alt="image" src="https://github.com/user-attachments/assets/cb1b7545-7c35-42f9-a361-34df9aa53ba2" />
 
 
 chmod 755 strcomp.sh
@@ -577,6 +584,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
+<img width="742" height="127" alt="image" src="https://github.com/user-attachments/assets/bd40cc82-899d-4e85-a343-44cb4506afba" />
 
 # check file ownership
 cat < psswdperm.sh 
@@ -601,8 +609,12 @@ else
 echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
+<img width="752" height="222" alt="image" src="https://github.com/user-attachments/assets/26a5e8d7-16e6-4aab-9a4f-f5da94a635b9" />
+
 ./psswdperm.sh
 ## OUTPUT
+<img width="760" height="77" alt="image" src="https://github.com/user-attachments/assets/df241a2b-e3fe-46a5-9ec9-1e1c1e7c279f" />
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -650,6 +662,8 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="781" height="85" alt="image" src="https://github.com/user-attachments/assets/d73da885-d993-48c2-be88-de20b13e26ab" />
+
 
 
 # using numeric test comparisons
@@ -692,7 +706,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+<img width="746" height="102" alt="image" src="https://github.com/user-attachments/assets/4ce46be5-0174-4da1-9c08-220029cfb6bb" />
 
 # check if a file
 cat > ifnested.sh 
@@ -741,7 +756,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+<img width="758" height="106" alt="image" src="https://github.com/user-attachments/assets/427978aa-95b7-4ca1-a24a-df1a35e9671b" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -771,6 +787,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+<img width="750" height="80" alt="image" src="https://github.com/user-attachments/assets/ac7d4464-5798-42ec-ad8e-d9f20dfe6afa" />
 
 # testing compound comparisons
 cat> ifcompound.sh 
